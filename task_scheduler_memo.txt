@@ -1,0 +1,17 @@
+全般
+　名前：任意
+　ユーザがログインしているかどうかにかかわらず実行する
+　最上位の特権で実行する
+
+トリガー
+　毎日
+　間隔：1日
+　繰り替え間隔：1分、1日間
+　有効
+
+操作
+　プログラムの開始
+　プログラム：C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+　引数：-c "C:\work\SyslogSendUDP.ps1 C:\work\settings.txt"
+
+そのほか：デフォルト

@@ -1,0 +1,11 @@
+# Syslog Servers
+SYSLOG_IPADDRESS = 192.168.1.1,192.168.1.2
+
+# syslog port
+SYSLOG_PORT = 514
+
+# Monitor log (FullPath)
+TAILFILE = C:\\work\\log.txt
+
+# Stay File Length (FullPath)
+COUNTLOG = C:\\work\\countfile.txt
